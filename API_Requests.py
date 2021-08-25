@@ -1,18 +1,21 @@
 import json
 import requests
 
-url = 'https://statsapi.web.nhl.com/api/v1/teams/53/?expand=team.roster'
+rosterURL = 'https://statsapi.web.nhl.com/api/v1/teams/53/?expand=team.roster'
+teamURL = 'https://statsapi.web.nhl.com/api/v1/teams/53/'
 
-r = requests.get(url)
+r = requests.get(rosterURL)
+t = requests.get(teamURL)
 
-data = r.json()
+rosterData = r.json()
+teamData = t.json()
 
 with open('APIroster.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+    json.dump(rosterData, f, ensure_ascii=False, indent=4)
 
 uniqueIDs = []
 
-team = data['teams'][0]['roster']['roster']
+team = rosterData['teams'][0]['roster']['roster']
 
 for roster in team:
     ID = roster['person']['id']
@@ -26,7 +29,7 @@ for player in uniqueIDs:
     print(response)
     playerStats = response.json()
     print(player)
-    data['teams'][0]['roster']['roster'][0]['person'].append(playerStats['people'])
+    teamData['teams'].append(playerStats['people'])
 
 with open('API_Stats.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+    json.dump(teamData, f, ensure_ascii=False, indent=4)
