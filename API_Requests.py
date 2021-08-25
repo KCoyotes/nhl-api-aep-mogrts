@@ -1,6 +1,18 @@
 import json
 import requests
 
+print("   ____________  ______  _________________")
+print("  / ____/ __ \ \/ / __ \/_  __/ ____/ ___/")
+print(" / /   / / / /\  / / / / / / / __/  \__ \ ")
+print("/ /___/ /_/ / / / /_/ / / / / /___ ___/ / ")
+print("\____/\____/ /_/\____/ /_/ /_____//____/  ")
+print("                                          ")
+print("nhl-api-aep-mogrts | v0.1 Build 14")
+print("Scrape info from the NHL's Stats API\n")
+print("Created by Kevin Thompson")
+print("")
+input("\nPress any key to start downloading...")
+
 rosterURL = 'https://statsapi.web.nhl.com/api/v1/teams/53/?expand=team.roster'
 teamURL = 'https://statsapi.web.nhl.com/api/v1/teams/53/'
 
