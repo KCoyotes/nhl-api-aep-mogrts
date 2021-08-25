@@ -48,3 +48,4 @@ with open('API_Stats.json', 'w', encoding='utf-8') as f:
     json.dump(finalData, f, ensure_ascii=False, indent=4)
 
 print("\nLETS GOOOOOOOOOOO\nAPI_Stats.json is ready for import into After Effects!\nStats are up-to-date from NHL.com as of " + timestamp + "\n")
+input("Press any key to close this window!")
