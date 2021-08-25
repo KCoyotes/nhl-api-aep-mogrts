@@ -57,3 +57,9 @@ y = value[1];
 
 [x,y]
 
+// Jersey Number Auto Scroller
+eval("var JSON=" + footage("API_Stats.json").sourceText);
+
+changer = Math.floor(time) + 1;
+
+JSON.teams[changer].primaryNumber;
