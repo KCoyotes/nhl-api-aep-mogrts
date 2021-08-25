@@ -30,7 +30,7 @@ now = datetime.now()
 
 timestamp = now.strftime("%B %d, %Y %I:%M:%S %p")
 timestampStr = "Data generated on " + timestamp
-print(timestampStr)
+print("\n" + timestampStr + "\n")
 
 finalData['DEBUG'] = timestampStr
 
@@ -50,8 +50,7 @@ for player in uniqueIDs:
     uniqueURL = statsURL + str(player) + '?hydrate=stats(splits=statsSingleSeason)'
     response = requests.get(uniqueURL)
     playerStats = response.json()
-    print("Downloading stats for Player ID: " + str(player))
-    print(response)
+    print("Downloading stats for Player ID: " + str(player) + "...")
     finalData['teams'].append(playerStats['people'][0])
 
 print("\nDownload complete. Writing to JSON file...")
