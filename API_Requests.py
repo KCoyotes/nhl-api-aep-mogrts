@@ -1,6 +1,7 @@
 import json
 import requests
-import os.path
+import time
+import zipfile
 
 print("   ____________  ______  _________________")
 print("  / ____/ __ \ \/ / __ \/_  __/ ____/ ___/")
@@ -8,7 +9,7 @@ print(" / /   / / / /\  / / / / / / / __/  \__ \ ")
 print("/ /___/ /_/ / / / /_/ / / / / /___ ___/ / ")
 print("\____/\____/ /_/\____/ /_/ /_____//____/  ")
 print("                                          ")
-print("nhl-api-aep-mogrts | v0.1 Build 14")
+print("nhl-api-aep-mogrts | v0.2 Build 20")
 print("Scrape info from the NHL's Stats API\n")
 print("Created by Kevin Thompson")
 print("")
@@ -36,9 +37,6 @@ print("\n" + timestampStr + "\n")
 
 finalData['DEBUG'] = timestampStr
 
-with open('MOGRTS\\APIroster.json', 'w', encoding='utf-8') as f:
-    json.dump(rosterData, f, ensure_ascii=False, indent=4)
-
 uniqueIDs = []
 
 team = rosterData['teams'][0]['roster']['roster']
@@ -57,8 +55,30 @@ for player in uniqueIDs:
 
 print("\nDownload complete. Writing to JSON file...")
 
-with open('MOGRTs\\API_Stats.json', 'w', encoding='utf-8') as f:
+with open('MOGRTs\\(Footage)\\API_Stats.json', 'w', encoding='utf-8') as f:
     json.dump(finalData, f, ensure_ascii=False, indent=4)
 
 print("\nLETS GOOOOOOOOOOO\nAPI_Stats.json is ready for import into After Effects!\nStats are up-to-date from NHL.com as of " + timestamp + "\n")
+
+time.sleep(1)
+
+print("Packaging .aegraphic file...")
+
+with zipfile.ZipFile('MOGRTs\\project.aegraphic', 'w', compression=zipfile.ZIP_DEFLATED) as aegraphic:
+    aegraphic.write('MOGRTs\\Main.aep', 'Main.aep')
+    aegraphic.write('MOGRTs\\MainReport.txt', 'MainReport.txt')
+    aegraphic.write('MOGRTs\\(Footage)\\API_Stats.json', '(Footage)\\API_Stats.json')
+    aegraphic.write('MOGRTs\\(Footage)\\Neon Kachina Purple.png', '(Footage)\\Neon Kachina Purple.png')
+print("Done!")
+
+time.sleep(1)
+
+print("Packaging .mogrt file...")
+
+with zipfile.ZipFile('MOGRTs\\Player L3 API.mogrt', 'w', compression=zipfile.ZIP_DEFLATED) as mogrt:
+        mogrt.write('MOGRTs\\definition.json', 'definition.json')
+        mogrt.write('MOGRTs\\thumb.png', 'thumb.png')
+        mogrt.write('MOGRTs\\project.aegraphic', 'project.aegraphic')
+print("Done!")
+
 input("Press any key to close this window!")

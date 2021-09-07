@@ -1,0 +1,35 @@
+Report created: 
+	9/7/2021	12:48:17 PM
+
+Project name: Main.aep
+
+Source files collected to: 
+	C:\Users\User\AppData\Local\Temp\aegraphic\1f27ed30-17ec-4eee-b469-39f1d2e7550c\collectprj
+
+Source files collected: For target comp
+
+Collected comps:  
+	API Testing
+	
+Number of collected files:  2
+
+Size of collected files:  8.2 MB
+
+Collected source files: 
+	\\Kachina\Share\Github Projects\nhl-api-aep-mogrts\assets\img\Neon Kachina Purple.png
+	\\Kachina\Share\Github Projects\nhl-api-aep-mogrts\MOGRTs\API_Stats.json
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  2
+
+Effect:  Checkbox Control
+	
+Effect:  Gaussian Blur
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Times New Roman”, Font style: “Regular”
+
