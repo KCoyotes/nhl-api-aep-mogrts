@@ -69,9 +69,24 @@ with zipfile.ZipFile('MOGRTs\\project.aegraphic', 'w', compression=zipfile.ZIP_D
     aegraphic.write('MOGRTs\\MainReport.txt', 'MainReport.txt')
     aegraphic.write('MOGRTs\\(Footage)\\API_Stats.json', '(Footage)\\API_Stats.json')
     aegraphic.write('MOGRTs\\(Footage)\\Neon Kachina Purple.png', '(Footage)\\Neon Kachina Purple.png')
-print("Done!")
+print("Done!\n")
 
-time.sleep(1)
+
+print("Writing definitions.json...")
+
+shortTimestamp = now.strftime("%x, %X")
+
+with open('MOGRTs\\definition.json') as d:
+    definition = json.load(d)
+definition['capsuleNameLocalized']['strDB'][0]['str'] = 'API Testing ' + shortTimestamp
+
+definition['clientControls'][3]['value']['strDB'][0]['str'] = timestamp
+
+with open('MOGRTs\\definition.json', 'w', encoding='utf-8') as x:
+    json.dump(definition, x, ensure_ascii=False)
+
+print("Done!\n")
+
 
 print("Packaging .mogrt file...")
 
@@ -79,6 +94,7 @@ with zipfile.ZipFile('MOGRTs\\Player L3 API.mogrt', 'w', compression=zipfile.ZIP
         mogrt.write('MOGRTs\\definition.json', 'definition.json')
         mogrt.write('MOGRTs\\thumb.png', 'thumb.png')
         mogrt.write('MOGRTs\\project.aegraphic', 'project.aegraphic')
-print("Done!")
+print("Done!\n\n")
+print("MOGRT exported successfully! Check the Essential Graphics panel in Premiere.\n\nMake sure you've added the 'MOGRTs' folder to your\nwatched folders in the Essential Graphics panel.\n")
 
 input("Press any key to close this window!")
