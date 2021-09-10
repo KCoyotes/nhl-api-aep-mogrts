@@ -2,6 +2,8 @@ import json
 import requests
 import time
 import zipfile
+from tqdm import tqdm
+from alive_progress import alive_bar
 
 print("   ____________  ______  _________________")
 print("  / ____/ __ \ \/ / __ \/_  __/ ____/ ___/")
@@ -13,7 +15,7 @@ print("nhl-api-aep-mogrts | v0.2 Build 20")
 print("Scrape info from the NHL's Stats API\n")
 print("Created by Kevin Thompson")
 print("")
-input("\nPress any key to start downloading...")
+input("\nPress [ENTER] to start downloading...")
 
 from datetime import datetime
 
@@ -33,7 +35,11 @@ teamData = t.json()
 finalData = {"TIMESTAMP" : timestampStr}
 finalData.update(teamData)
 
-print("\n" + timestampStr + "\n")
+copyright=finalData['copyright'].split(". ", 2)
+print("\n\n" + copyright[0] + ".\n" + copyright[1] + ".\n" + copyright[2] + "\n")
+time.sleep(1)
+print(timestampStr + "\n")
+time.sleep(1)
 
 finalData['DEBUG'] = timestampStr
 
@@ -45,13 +51,15 @@ for roster in team:
     ID = roster['person']['id']
     uniqueIDs.append(ID)
 
-for player in uniqueIDs:
-    statsURL = 'https://statsapi.web.nhl.com/api/v1/people/'
-    uniqueURL = statsURL + str(player) + '?hydrate=stats(splits=statsSingleSeason)'
-    response = requests.get(uniqueURL)
-    playerStats = response.json()
-    print("Downloading stats for Player ID: " + str(player) + "...")
-    finalData['teams'].append(playerStats['people'][0])
+with alive_bar(len(uniqueIDs), length=30, bar='smooth', enrich_print=False) as bar:
+    for player in uniqueIDs:
+        statsURL = 'https://statsapi.web.nhl.com/api/v1/people/'
+        uniqueURL = statsURL + str(player) + '?hydrate=stats(splits=statsSingleSeason)'
+        response = requests.get(uniqueURL)
+        playerStats = response.json()
+        print("Downloading stats for Player ID: " + str(player) + " - " + playerStats['people'][0]['fullName'])
+        finalData['teams'].append(playerStats['people'][0])
+        bar()
 
 print("\nDownload complete. Writing to JSON file...")
 
@@ -95,6 +103,8 @@ with zipfile.ZipFile('MOGRTs\\Player L3 API.mogrt', 'w', compression=zipfile.ZIP
         mogrt.write('MOGRTs\\thumb.png', 'thumb.png')
         mogrt.write('MOGRTs\\project.aegraphic', 'project.aegraphic')
 print("Done!\n\n")
+
+
 print("MOGRT exported successfully! Check the Essential Graphics panel in Premiere.\n\nMake sure you've added the 'MOGRTs' folder to your\nwatched folders in the Essential Graphics panel.\n")
 
-input("Press any key to close this window!")
+input("Press [ENTER] to close this window!")
