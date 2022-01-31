@@ -60,3 +60,5 @@ x = (time * 100) % singleWordWidth
 y = value[1];
 
 [x,y]
+
+team[0]['person']['id']

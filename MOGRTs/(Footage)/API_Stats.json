@@ -1,6 +1,6 @@
 {
-    "TIMESTAMP": "Data generated on September 10, 2021 11:21:23 AM",
-    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2021. All Rights Reserved.",
+    "TIMESTAMP": "Data generated on January 15, 2022 12:29:51 PM",
+    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2022. All Rights Reserved.",
     "teams": [
         {
             "id": 53,
@@ -51,7 +51,7 @@
             "lastName": "Beagle",
             "primaryNumber": "83",
             "birthDate": "1985-10-16",
-            "currentAge": 35,
+            "currentAge": 36,
             "birthCity": "Calgary",
             "birthStateProvince": "AB",
             "birthCountry": "CAN",
@@ -87,35 +87,661 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "375:34",
-                                "assists": 4,
+                                "timeOnIce": "294:33",
+                                "assists": 0,
                                 "goals": 1,
-                                "pim": 8,
-                                "shots": 21,
-                                "games": 30,
-                                "hits": 34,
+                                "pim": 10,
+                                "shots": 13,
+                                "games": 21,
+                                "hits": 32,
                                 "powerPlayGoals": 0,
                                 "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "00:36",
-                                "evenTimeOnIce": "277:56",
-                                "penaltyMinutes": "8",
-                                "faceOffPct": 56.16,
-                                "shotPct": 4.8,
+                                "powerPlayTimeOnIce": "03:29",
+                                "evenTimeOnIce": "248:08",
+                                "penaltyMinutes": "10",
+                                "faceOffPct": 61.68,
+                                "shotPct": 7.7,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "97:02",
-                                "blocked": 8,
-                                "plusMinus": -2,
+                                "shortHandedTimeOnIce": "42:56",
+                                "blocked": 9,
+                                "plusMinus": -11,
+                                "points": 1,
+                                "shifts": 451,
+                                "timeOnIcePerGame": "14:01",
+                                "evenTimeOnIcePerGame": "11:48",
+                                "shortHandedTimeOnIcePerGame": "02:02",
+                                "powerPlayTimeOnIcePerGame": "00:09"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8475622,
+            "fullName": "Carter Hutton",
+            "link": "/api/v1/people/8475622",
+            "firstName": "Carter",
+            "lastName": "Hutton",
+            "primaryNumber": "40",
+            "birthDate": "1985-12-19",
+            "currentAge": 36,
+            "birthCity": "Thunder Bay",
+            "birthStateProvince": "ON",
+            "birthCountry": "CAN",
+            "nationality": "CAN",
+            "height": "6' 0\"",
+            "weight": 211,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "L",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "G",
+                "name": "Goalie",
+                "type": "Goalie",
+                "abbreviation": "G"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "115:58",
+                                "ot": 0,
+                                "shutouts": 0,
+                                "ties": 0,
+                                "wins": 0,
+                                "losses": 2,
+                                "saves": 43,
+                                "powerPlaySaves": 5,
+                                "shortHandedSaves": 2,
+                                "evenSaves": 36,
+                                "shortHandedShots": 2,
+                                "evenShots": 47,
+                                "powerPlayShots": 9,
+                                "savePercentage": 0.741,
+                                "goalAgainstAverage": 7.7609,
+                                "games": 3,
+                                "gamesStarted": 3,
+                                "shotsAgainst": 58,
+                                "goalsAgainst": 15,
+                                "timeOnIcePerGame": "38:39",
+                                "powerPlaySavePercentage": 55.55555555555556,
+                                "shortHandedSavePercentage": 100.0,
+                                "evenStrengthSavePercentage": 76.59574468085107
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8476436,
+            "fullName": "Dmitrij Jaskin",
+            "link": "/api/v1/people/8476436",
+            "firstName": "Dmitrij",
+            "lastName": "Jaskin",
+            "primaryNumber": "93",
+            "birthDate": "1993-03-23",
+            "currentAge": 28,
+            "birthCity": "Omsk",
+            "birthCountry": "RUS",
+            "nationality": "CZE",
+            "height": "6' 2\"",
+            "weight": 216,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "L",
+            "rosterStatus": "I",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "R",
+                "name": "Right Wing",
+                "type": "Forward",
+                "abbreviation": "RW"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "177:25",
+                                "assists": 1,
+                                "goals": 0,
+                                "pim": 4,
+                                "shots": 23,
+                                "games": 12,
+                                "hits": 47,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "16:40",
+                                "evenTimeOnIce": "160:43",
+                                "penaltyMinutes": "4",
+                                "faceOffPct": 50.0,
+                                "shotPct": 0.0,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "00:02",
+                                "blocked": 9,
+                                "plusMinus": -6,
+                                "points": 1,
+                                "shifts": 228,
+                                "timeOnIcePerGame": "14:47",
+                                "evenTimeOnIcePerGame": "13:23",
+                                "shortHandedTimeOnIcePerGame": "00:00",
+                                "powerPlayTimeOnIcePerGame": "01:23"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8479345,
+            "fullName": "Jakob Chychrun",
+            "link": "/api/v1/people/8479345",
+            "firstName": "Jakob",
+            "lastName": "Chychrun",
+            "primaryNumber": "6",
+            "birthDate": "1998-03-31",
+            "currentAge": 23,
+            "birthCity": "Boca Raton",
+            "birthStateProvince": "FL",
+            "birthCountry": "USA",
+            "nationality": "USA",
+            "height": "6' 2\"",
+            "weight": 220,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "L",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "D",
+                "name": "Defenseman",
+                "type": "Defenseman",
+                "abbreviation": "D"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "645:34",
+                                "assists": 5,
+                                "goals": 2,
+                                "pim": 30,
+                                "shots": 84,
+                                "games": 26,
+                                "hits": 32,
+                                "powerPlayGoals": 1,
+                                "powerPlayPoints": 1,
+                                "powerPlayTimeOnIce": "62:33",
+                                "evenTimeOnIce": "524:37",
+                                "penaltyMinutes": "30",
+                                "faceOffPct": 0.0,
+                                "shotPct": 2.4,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "58:24",
+                                "blocked": 34,
+                                "plusMinus": -29,
+                                "points": 7,
+                                "shifts": 714,
+                                "timeOnIcePerGame": "24:49",
+                                "evenTimeOnIcePerGame": "20:10",
+                                "shortHandedTimeOnIcePerGame": "02:14",
+                                "powerPlayTimeOnIcePerGame": "02:24"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8479982,
+            "fullName": "Conor Timmins",
+            "link": "/api/v1/people/8479982",
+            "firstName": "Conor",
+            "lastName": "Timmins",
+            "primaryNumber": "25",
+            "birthDate": "1998-09-18",
+            "currentAge": 23,
+            "birthCity": "St. Catharines",
+            "birthStateProvince": "ON",
+            "birthCountry": "CAN",
+            "nationality": "CAN",
+            "height": "6' 2\"",
+            "weight": 202,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "R",
+            "rosterStatus": "I",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "D",
+                "name": "Defenseman",
+                "type": "Defenseman",
+                "abbreviation": "D"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "106:29",
+                                "assists": 0,
+                                "goals": 0,
+                                "pim": 0,
+                                "shots": 5,
+                                "games": 6,
+                                "hits": 7,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "04:43",
+                                "evenTimeOnIce": "95:49",
+                                "penaltyMinutes": "0",
+                                "faceOffPct": 0.0,
+                                "shotPct": 0.0,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "05:57",
+                                "blocked": 9,
+                                "plusMinus": -6,
+                                "points": 0,
+                                "shifts": 129,
+                                "timeOnIcePerGame": "17:44",
+                                "evenTimeOnIcePerGame": "15:58",
+                                "shortHandedTimeOnIcePerGame": "00:59",
+                                "powerPlayTimeOnIcePerGame": "00:47"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8480849,
+            "fullName": "Barrett Hayton",
+            "link": "/api/v1/people/8480849",
+            "firstName": "Barrett",
+            "lastName": "Hayton",
+            "primaryNumber": "29",
+            "birthDate": "2000-06-09",
+            "currentAge": 21,
+            "birthCity": "Peterborough",
+            "birthStateProvince": "ON",
+            "birthCountry": "CAN",
+            "nationality": "CAN",
+            "height": "6' 1\"",
+            "weight": 207,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "L",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "C",
+                "name": "Center",
+                "type": "Forward",
+                "abbreviation": "C"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "431:04",
+                                "assists": 4,
+                                "goals": 2,
+                                "pim": 10,
+                                "shots": 28,
+                                "games": 26,
+                                "hits": 35,
+                                "powerPlayGoals": 1,
+                                "powerPlayPoints": 3,
+                                "powerPlayTimeOnIce": "61:39",
+                                "evenTimeOnIce": "335:08",
+                                "penaltyMinutes": "10",
+                                "faceOffPct": 50.36,
+                                "shotPct": 7.1,
+                                "gameWinningGoals": 1,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "34:17",
+                                "blocked": 15,
+                                "plusMinus": -8,
+                                "points": 6,
+                                "shifts": 624,
+                                "timeOnIcePerGame": "16:34",
+                                "evenTimeOnIcePerGame": "12:53",
+                                "shortHandedTimeOnIcePerGame": "01:19",
+                                "powerPlayTimeOnIcePerGame": "02:22"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8471873,
+            "fullName": "Anton Stralman",
+            "link": "/api/v1/people/8471873",
+            "firstName": "Anton",
+            "lastName": "Stralman",
+            "primaryNumber": "86",
+            "birthDate": "1986-08-01",
+            "currentAge": 35,
+            "birthCity": "Tibro",
+            "birthCountry": "SWE",
+            "nationality": "SWE",
+            "height": "5' 11\"",
+            "weight": 193,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "R",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "D",
+                "name": "Defenseman",
+                "type": "Defenseman",
+                "abbreviation": "D"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "597:29",
+                                "assists": 4,
+                                "goals": 2,
+                                "pim": 6,
+                                "shots": 37,
+                                "games": 29,
+                                "hits": 25,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "07:43",
+                                "evenTimeOnIce": "515:08",
+                                "penaltyMinutes": "6",
+                                "faceOffPct": 0.0,
+                                "shotPct": 5.4,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "74:38",
+                                "blocked": 35,
+                                "plusMinus": -4,
+                                "points": 6,
+                                "shifts": 730,
+                                "timeOnIcePerGame": "20:36",
+                                "evenTimeOnIcePerGame": "17:45",
+                                "shortHandedTimeOnIcePerGame": "02:34",
+                                "powerPlayTimeOnIcePerGame": "00:15"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8478476,
+            "fullName": "Kyle Capobianco",
+            "link": "/api/v1/people/8478476",
+            "firstName": "Kyle",
+            "lastName": "Capobianco",
+            "primaryNumber": "75",
+            "birthDate": "1997-08-13",
+            "currentAge": 24,
+            "birthCity": "Mississauga",
+            "birthStateProvince": "ON",
+            "birthCountry": "CAN",
+            "nationality": "CAN",
+            "height": "6' 1\"",
+            "weight": 199,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": true,
+            "shootsCatches": "L",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "D",
+                "name": "Defenseman",
+                "type": "Defenseman",
+                "abbreviation": "D"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "221:59",
+                                "assists": 3,
+                                "goals": 2,
+                                "pim": 12,
+                                "shots": 12,
+                                "games": 15,
+                                "hits": 9,
+                                "powerPlayGoals": 1,
+                                "powerPlayPoints": 2,
+                                "powerPlayTimeOnIce": "13:49",
+                                "evenTimeOnIce": "207:59",
+                                "penaltyMinutes": "12",
+                                "faceOffPct": 0.0,
+                                "shotPct": 16.7,
+                                "gameWinningGoals": 1,
+                                "overTimeGoals": 1,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "00:11",
+                                "blocked": 11,
+                                "plusMinus": -8,
                                 "points": 5,
-                                "shifts": 606,
-                                "timeOnIcePerGame": "12:31",
-                                "evenTimeOnIcePerGame": "09:15",
-                                "shortHandedTimeOnIcePerGame": "03:14",
-                                "powerPlayTimeOnIcePerGame": "00:01"
+                                "shifts": 316,
+                                "timeOnIcePerGame": "14:47",
+                                "evenTimeOnIcePerGame": "13:51",
+                                "shortHandedTimeOnIcePerGame": "00:00",
+                                "powerPlayTimeOnIcePerGame": "00:55"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8479341,
+            "fullName": "Cam Dineen",
+            "link": "/api/v1/people/8479341",
+            "firstName": "Cam",
+            "lastName": "Dineen",
+            "primaryNumber": "54",
+            "birthDate": "1998-06-19",
+            "currentAge": 23,
+            "birthCity": "Toms River",
+            "birthStateProvince": "NJ",
+            "birthCountry": "USA",
+            "nationality": "USA",
+            "height": "5' 11\"",
+            "weight": 188,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": true,
+            "shootsCatches": "L",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "D",
+                "name": "Defenseman",
+                "type": "Defenseman",
+                "abbreviation": "D"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "200:06",
+                                "assists": 4,
+                                "goals": 0,
+                                "pim": 0,
+                                "shots": 18,
+                                "games": 14,
+                                "hits": 5,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "06:14",
+                                "evenTimeOnIce": "186:07",
+                                "penaltyMinutes": "0",
+                                "faceOffPct": 0.0,
+                                "shotPct": 0.0,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "07:45",
+                                "blocked": 17,
+                                "plusMinus": -5,
+                                "points": 4,
+                                "shifts": 282,
+                                "timeOnIcePerGame": "14:17",
+                                "evenTimeOnIcePerGame": "13:17",
+                                "shortHandedTimeOnIcePerGame": "00:33",
+                                "powerPlayTimeOnIcePerGame": "00:26"
                             }
                         }
                     ]
@@ -165,35 +791,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "67:03",
-                                "assists": 1,
-                                "goals": 0,
-                                "pim": 2,
-                                "shots": 5,
-                                "games": 7,
-                                "hits": 1,
+                                "timeOnIce": "365:04",
+                                "assists": 5,
+                                "goals": 1,
+                                "pim": 6,
+                                "shots": 38,
+                                "games": 29,
+                                "hits": 3,
                                 "powerPlayGoals": 0,
-                                "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "00:00",
-                                "evenTimeOnIce": "59:47",
-                                "penaltyMinutes": "2",
-                                "faceOffPct": 100.0,
-                                "shotPct": 0.0,
+                                "powerPlayPoints": 1,
+                                "powerPlayTimeOnIce": "10:48",
+                                "evenTimeOnIce": "327:44",
+                                "penaltyMinutes": "6",
+                                "faceOffPct": 50.0,
+                                "shotPct": 2.6,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
-                                "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "07:16",
-                                "blocked": 1,
-                                "plusMinus": -3,
-                                "points": 1,
-                                "shifts": 105,
-                                "timeOnIcePerGame": "09:34",
-                                "evenTimeOnIcePerGame": "08:32",
-                                "shortHandedTimeOnIcePerGame": "01:02",
-                                "powerPlayTimeOnIcePerGame": "00:00"
+                                "shortHandedGoals": 1,
+                                "shortHandedPoints": 1,
+                                "shortHandedTimeOnIce": "26:32",
+                                "blocked": 5,
+                                "plusMinus": -12,
+                                "points": 6,
+                                "shifts": 543,
+                                "timeOnIcePerGame": "12:35",
+                                "evenTimeOnIcePerGame": "11:18",
+                                "shortHandedTimeOnIcePerGame": "00:54",
+                                "powerPlayTimeOnIcePerGame": "00:22"
                             }
                         }
                     ]
@@ -208,7 +834,7 @@
             "lastName": "Ladd",
             "primaryNumber": "16",
             "birthDate": "1985-12-12",
-            "currentAge": 35,
+            "currentAge": 36,
             "birthCity": "Maple Ridge",
             "birthStateProvince": "BC",
             "birthCountry": "CAN",
@@ -242,82 +868,37 @@
                             "postseason": false
                         }
                     },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8471873,
-            "fullName": "Anton Stralman",
-            "link": "/api/v1/people/8471873",
-            "firstName": "Anton",
-            "lastName": "Stralman",
-            "primaryNumber": "86",
-            "birthDate": "1986-08-01",
-            "currentAge": 35,
-            "birthCity": "Tibro",
-            "birthCountry": "SWE",
-            "nationality": "SWE",
-            "height": "5' 11\"",
-            "weight": 186,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": false,
-            "shootsCatches": "R",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "720:05",
-                                "assists": 6,
-                                "goals": 3,
-                                "pim": 8,
-                                "shots": 38,
-                                "games": 38,
-                                "hits": 37,
-                                "powerPlayGoals": 0,
-                                "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "27:15",
-                                "evenTimeOnIce": "630:32",
-                                "penaltyMinutes": "8",
-                                "faceOffPct": 0.0,
-                                "shotPct": 7.9,
+                                "timeOnIce": "368:00",
+                                "assists": 3,
+                                "goals": 5,
+                                "pim": 39,
+                                "shots": 26,
+                                "games": 27,
+                                "hits": 47,
+                                "powerPlayGoals": 2,
+                                "powerPlayPoints": 3,
+                                "powerPlayTimeOnIce": "37:23",
+                                "evenTimeOnIce": "324:09",
+                                "penaltyMinutes": "39",
+                                "faceOffPct": 71.42,
+                                "shotPct": 19.2,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "62:18",
-                                "blocked": 30,
-                                "plusMinus": -1,
-                                "points": 9,
-                                "shifts": 950,
-                                "timeOnIcePerGame": "18:56",
-                                "evenTimeOnIcePerGame": "16:35",
-                                "shortHandedTimeOnIcePerGame": "01:38",
-                                "powerPlayTimeOnIcePerGame": "00:43"
+                                "shortHandedTimeOnIce": "06:28",
+                                "blocked": 16,
+                                "plusMinus": -5,
+                                "points": 8,
+                                "shifts": 513,
+                                "timeOnIcePerGame": "13:37",
+                                "evenTimeOnIcePerGame": "12:00",
+                                "shortHandedTimeOnIcePerGame": "00:14",
+                                "powerPlayTimeOnIcePerGame": "01:23"
                             }
                         }
                     ]
@@ -332,13 +913,13 @@
             "lastName": "Kessel",
             "primaryNumber": "81",
             "birthDate": "1987-10-02",
-            "currentAge": 33,
+            "currentAge": 34,
             "birthCity": "Madison",
             "birthStateProvince": "WI",
             "birthCountry": "USA",
             "nationality": "USA",
             "height": "6' 0\"",
-            "weight": 202,
+            "weight": 223,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -368,35 +949,114 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "956:57",
-                                "assists": 23,
-                                "goals": 20,
-                                "pim": 12,
-                                "shots": 115,
-                                "games": 56,
-                                "hits": 8,
-                                "powerPlayGoals": 4,
-                                "powerPlayPoints": 13,
-                                "powerPlayTimeOnIce": "160:53",
-                                "evenTimeOnIce": "796:04",
-                                "penaltyMinutes": "12",
+                                "timeOnIce": "609:47",
+                                "assists": 20,
+                                "goals": 5,
+                                "pim": 14,
+                                "shots": 78,
+                                "games": 35,
+                                "hits": 3,
+                                "powerPlayGoals": 2,
+                                "powerPlayPoints": 8,
+                                "powerPlayTimeOnIce": "100:19",
+                                "evenTimeOnIce": "509:23",
+                                "penaltyMinutes": "14",
                                 "faceOffPct": 25.0,
-                                "shotPct": 17.4,
-                                "gameWinningGoals": 3,
-                                "overTimeGoals": 1,
+                                "shotPct": 6.4,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "00:00",
+                                "shortHandedTimeOnIce": "00:05",
                                 "blocked": 9,
-                                "plusMinus": -17,
-                                "points": 43,
-                                "shifts": 1212,
-                                "timeOnIcePerGame": "17:05",
-                                "evenTimeOnIcePerGame": "14:12",
+                                "plusMinus": -7,
+                                "points": 25,
+                                "shifts": 789,
+                                "timeOnIcePerGame": "17:25",
+                                "evenTimeOnIcePerGame": "14:33",
                                 "shortHandedTimeOnIcePerGame": "00:00",
-                                "powerPlayTimeOnIcePerGame": "02:52"
+                                "powerPlayTimeOnIcePerGame": "02:51"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8474062,
+            "fullName": "Riley Nash",
+            "link": "/api/v1/people/8474062",
+            "firstName": "Riley",
+            "lastName": "Nash",
+            "primaryNumber": "20",
+            "birthDate": "1989-05-09",
+            "currentAge": 32,
+            "birthCity": "Consort",
+            "birthStateProvince": "AB",
+            "birthCountry": "CAN",
+            "nationality": "CAN",
+            "height": "6' 2\"",
+            "weight": 188,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "R",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "C",
+                "name": "Center",
+                "type": "Forward",
+                "abbreviation": "C"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "288:41",
+                                "assists": 1,
+                                "goals": 0,
+                                "pim": 6,
+                                "shots": 20,
+                                "games": 28,
+                                "hits": 25,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "22:58",
+                                "evenTimeOnIce": "221:50",
+                                "penaltyMinutes": "6",
+                                "faceOffPct": 53.16,
+                                "shotPct": 0.0,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "43:53",
+                                "blocked": 9,
+                                "plusMinus": 0,
+                                "points": 1,
+                                "shifts": 417,
+                                "timeOnIcePerGame": "10:18",
+                                "evenTimeOnIcePerGame": "07:55",
+                                "shortHandedTimeOnIcePerGame": "01:34",
+                                "powerPlayTimeOnIcePerGame": "00:49"
                             }
                         }
                     ]
@@ -411,12 +1071,12 @@
             "lastName": "Roussel",
             "primaryNumber": "26",
             "birthDate": "1989-11-21",
-            "currentAge": 31,
+            "currentAge": 32,
             "birthCity": "Roubaix",
             "birthCountry": "FRA",
             "nationality": "FRA",
             "height": "5' 11\"",
-            "weight": 199,
+            "weight": 200,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -446,35 +1106,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "402:42",
-                                "assists": 3,
-                                "goals": 1,
+                                "timeOnIce": "358:30",
+                                "assists": 1,
+                                "goals": 3,
                                 "pim": 37,
-                                "shots": 28,
-                                "games": 35,
-                                "hits": 63,
+                                "shots": 32,
+                                "games": 31,
+                                "hits": 33,
                                 "powerPlayGoals": 0,
                                 "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "00:57",
-                                "evenTimeOnIce": "331:22",
+                                "powerPlayTimeOnIce": "01:16",
+                                "evenTimeOnIce": "297:58",
                                 "penaltyMinutes": "37",
-                                "faceOffPct": 50.0,
-                                "shotPct": 3.6,
-                                "gameWinningGoals": 0,
+                                "faceOffPct": 40.74,
+                                "shotPct": 9.4,
+                                "gameWinningGoals": 1,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
-                                "shortHandedPoints": 1,
-                                "shortHandedTimeOnIce": "70:23",
-                                "blocked": 18,
-                                "plusMinus": 4,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "59:16",
+                                "blocked": 20,
+                                "plusMinus": -14,
                                 "points": 4,
-                                "shifts": 657,
-                                "timeOnIcePerGame": "11:30",
-                                "evenTimeOnIcePerGame": "09:28",
-                                "shortHandedTimeOnIcePerGame": "02:00",
-                                "powerPlayTimeOnIcePerGame": "00:01"
+                                "shifts": 578,
+                                "timeOnIcePerGame": "11:33",
+                                "evenTimeOnIcePerGame": "09:36",
+                                "shortHandedTimeOnIcePerGame": "01:54",
+                                "powerPlayTimeOnIcePerGame": "00:02"
                             }
                         }
                     ]
@@ -482,20 +1142,98 @@
             ]
         },
         {
-            "id": 8475622,
-            "fullName": "Carter Hutton",
-            "link": "/api/v1/people/8475622",
-            "firstName": "Carter",
-            "lastName": "Hutton",
-            "primaryNumber": "40",
-            "birthDate": "1985-12-19",
-            "currentAge": 35,
-            "birthCity": "Thunder Bay",
+            "id": 8475728,
+            "fullName": "Johan Larsson",
+            "link": "/api/v1/people/8475728",
+            "firstName": "Johan",
+            "lastName": "Larsson",
+            "primaryNumber": "22",
+            "birthDate": "1992-07-25",
+            "currentAge": 29,
+            "birthCity": "Lau",
+            "birthCountry": "SWE",
+            "nationality": "SWE",
+            "height": "5' 11\"",
+            "weight": 206,
+            "active": true,
+            "alternateCaptain": false,
+            "captain": false,
+            "rookie": false,
+            "shootsCatches": "L",
+            "rosterStatus": "Y",
+            "currentTeam": {
+                "id": 53,
+                "name": "Arizona Coyotes",
+                "link": "/api/v1/teams/53"
+            },
+            "primaryPosition": {
+                "code": "L",
+                "name": "Left Wing",
+                "type": "Forward",
+                "abbreviation": "LW"
+            },
+            "stats": [
+                {
+                    "type": {
+                        "displayName": "statsSingleSeason",
+                        "gameType": {
+                            "id": "R",
+                            "description": "Regular season",
+                            "postseason": false
+                        }
+                    },
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "414:40",
+                                "assists": 8,
+                                "goals": 4,
+                                "pim": 28,
+                                "shots": 23,
+                                "games": 23,
+                                "hits": 43,
+                                "powerPlayGoals": 1,
+                                "powerPlayPoints": 2,
+                                "powerPlayTimeOnIce": "22:23",
+                                "evenTimeOnIce": "346:35",
+                                "penaltyMinutes": "28",
+                                "faceOffPct": 45.48,
+                                "shotPct": 17.4,
+                                "gameWinningGoals": 1,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "45:42",
+                                "blocked": 16,
+                                "plusMinus": -2,
+                                "points": 12,
+                                "shifts": 541,
+                                "timeOnIcePerGame": "18:01",
+                                "evenTimeOnIcePerGame": "15:04",
+                                "shortHandedTimeOnIcePerGame": "01:59",
+                                "powerPlayTimeOnIcePerGame": "00:58"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8475809,
+            "fullName": "Scott Wedgewood",
+            "link": "/api/v1/people/8475809",
+            "firstName": "Scott",
+            "lastName": "Wedgewood",
+            "primaryNumber": "31",
+            "birthDate": "1992-08-14",
+            "currentAge": 29,
+            "birthCity": "Brampton",
             "birthStateProvince": "ON",
             "birthCountry": "CAN",
             "nationality": "CAN",
-            "height": "6' 0\"",
-            "weight": 208,
+            "height": "6' 2\"",
+            "weight": 205,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -525,109 +1263,31 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "674:43",
-                                "ot": 1,
+                                "timeOnIce": "973:04",
+                                "ot": 3,
                                 "shutouts": 0,
                                 "ties": 0,
-                                "wins": 1,
-                                "losses": 10,
-                                "saves": 302,
-                                "powerPlaySaves": 37,
-                                "shortHandedSaves": 7,
-                                "evenSaves": 258,
-                                "shortHandedShots": 7,
-                                "evenShots": 292,
-                                "powerPlayShots": 42,
-                                "savePercentage": 0.886,
-                                "goalAgainstAverage": 3.4681,
-                                "games": 13,
-                                "gamesStarted": 12,
-                                "shotsAgainst": 341,
-                                "goalsAgainst": 39,
-                                "timeOnIcePerGame": "51:54",
-                                "powerPlaySavePercentage": 88.09523809523809,
+                                "wins": 4,
+                                "losses": 9,
+                                "saves": 456,
+                                "powerPlaySaves": 63,
+                                "shortHandedSaves": 10,
+                                "evenSaves": 383,
+                                "shortHandedShots": 10,
+                                "evenShots": 424,
+                                "powerPlayShots": 76,
+                                "savePercentage": 0.894,
+                                "goalAgainstAverage": 3.3297,
+                                "games": 17,
+                                "gamesStarted": 14,
+                                "shotsAgainst": 510,
+                                "goalsAgainst": 54,
+                                "timeOnIcePerGame": "57:14",
+                                "powerPlaySavePercentage": 82.89473684210526,
                                 "shortHandedSavePercentage": 100.0,
-                                "evenStrengthSavePercentage": 88.35616438356165
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 8475728,
-            "fullName": "Johan Larsson",
-            "link": "/api/v1/people/8475728",
-            "firstName": "Johan",
-            "lastName": "Larsson",
-            "primaryNumber": "22",
-            "birthDate": "1992-07-25",
-            "currentAge": 29,
-            "birthCity": "Lau",
-            "birthCountry": "SWE",
-            "nationality": "SWE",
-            "height": "5' 11\"",
-            "weight": 204,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": false,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "L",
-                "name": "Left Wing",
-                "type": "Forward",
-                "abbreviation": "LW"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": [
-                        {
-                            "season": "20202021",
-                            "stat": {
-                                "timeOnIce": "726:55",
-                                "assists": 6,
-                                "goals": 8,
-                                "pim": 24,
-                                "shots": 58,
-                                "games": 52,
-                                "hits": 77,
-                                "powerPlayGoals": 0,
-                                "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "03:03",
-                                "evenTimeOnIce": "633:30",
-                                "penaltyMinutes": "24",
-                                "faceOffPct": 48.6,
-                                "shotPct": 13.8,
-                                "gameWinningGoals": 2,
-                                "overTimeGoals": 0,
-                                "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "90:22",
-                                "blocked": 34,
-                                "plusMinus": -13,
-                                "points": 14,
-                                "shifts": 1014,
-                                "timeOnIcePerGame": "13:58",
-                                "evenTimeOnIcePerGame": "12:10",
-                                "shortHandedTimeOnIcePerGame": "01:44",
-                                "powerPlayTimeOnIcePerGame": "00:03"
+                                "evenStrengthSavePercentage": 90.33018867924528
                             }
                         }
                     ]
@@ -678,35 +1338,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "508:18",
-                                "assists": 5,
-                                "goals": 8,
-                                "pim": 21,
-                                "shots": 48,
-                                "games": 40,
-                                "hits": 44,
-                                "powerPlayGoals": 2,
-                                "powerPlayPoints": 3,
-                                "powerPlayTimeOnIce": "69:41",
-                                "evenTimeOnIce": "438:28",
-                                "penaltyMinutes": "21",
-                                "faceOffPct": 25.0,
-                                "shotPct": 16.7,
-                                "gameWinningGoals": 0,
+                                "timeOnIce": "245:23",
+                                "assists": 2,
+                                "goals": 4,
+                                "pim": 33,
+                                "shots": 18,
+                                "games": 18,
+                                "hits": 8,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "09:12",
+                                "evenTimeOnIce": "225:15",
+                                "penaltyMinutes": "33",
+                                "faceOffPct": 45.16,
+                                "shotPct": 22.2,
+                                "gameWinningGoals": 1,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "00:09",
-                                "blocked": 10,
-                                "plusMinus": -5,
-                                "points": 13,
-                                "shifts": 693,
-                                "timeOnIcePerGame": "12:42",
-                                "evenTimeOnIcePerGame": "10:57",
-                                "shortHandedTimeOnIcePerGame": "00:00",
-                                "powerPlayTimeOnIcePerGame": "01:44"
+                                "shortHandedTimeOnIce": "10:56",
+                                "blocked": 5,
+                                "plusMinus": 1,
+                                "points": 6,
+                                "shifts": 346,
+                                "timeOnIcePerGame": "13:37",
+                                "evenTimeOnIcePerGame": "12:30",
+                                "shortHandedTimeOnIcePerGame": "00:36",
+                                "powerPlayTimeOnIcePerGame": "00:30"
                             }
                         }
                     ]
@@ -721,7 +1381,7 @@
             "lastName": "Boyd",
             "primaryNumber": "72",
             "birthDate": "1993-09-14",
-            "currentAge": 27,
+            "currentAge": 28,
             "birthCity": "Hopkins",
             "birthStateProvince": "MN",
             "birthCountry": "USA",
@@ -757,35 +1417,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "418:22",
-                                "assists": 5,
-                                "goals": 5,
-                                "pim": 2,
-                                "shots": 23,
-                                "games": 39,
-                                "hits": 18,
+                                "timeOnIce": "420:16",
+                                "assists": 8,
+                                "goals": 8,
+                                "pim": 16,
+                                "shots": 36,
+                                "games": 27,
+                                "hits": 22,
                                 "powerPlayGoals": 1,
-                                "powerPlayPoints": 1,
-                                "powerPlayTimeOnIce": "38:10",
-                                "evenTimeOnIce": "378:26",
-                                "penaltyMinutes": "2",
-                                "faceOffPct": 46.87,
-                                "shotPct": 21.7,
+                                "powerPlayPoints": 3,
+                                "powerPlayTimeOnIce": "35:31",
+                                "evenTimeOnIce": "376:11",
+                                "penaltyMinutes": "16",
+                                "faceOffPct": 46.48,
+                                "shotPct": 22.2,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "01:46",
-                                "blocked": 15,
-                                "plusMinus": -5,
-                                "points": 10,
-                                "shifts": 614,
-                                "timeOnIcePerGame": "10:43",
-                                "evenTimeOnIcePerGame": "09:42",
-                                "shortHandedTimeOnIcePerGame": "00:02",
-                                "powerPlayTimeOnIcePerGame": "00:58"
+                                "shortHandedTimeOnIce": "08:34",
+                                "blocked": 20,
+                                "plusMinus": -6,
+                                "points": 16,
+                                "shifts": 607,
+                                "timeOnIcePerGame": "15:33",
+                                "evenTimeOnIcePerGame": "13:55",
+                                "shortHandedTimeOnIcePerGame": "00:19",
+                                "powerPlayTimeOnIcePerGame": "01:18"
                             }
                         }
                     ]
@@ -793,19 +1453,20 @@
             ]
         },
         {
-            "id": 8476436,
-            "fullName": "Dmitrij Jaskin",
-            "link": "/api/v1/people/8476436",
-            "firstName": "Dmitrij",
-            "lastName": "Jaskin",
-            "primaryNumber": "93",
-            "birthDate": "1993-03-23",
-            "currentAge": 28,
-            "birthCity": "Omsk",
-            "birthCountry": "RUS",
-            "nationality": "CZE",
-            "height": "6' 2\"",
-            "weight": 216,
+            "id": 8476851,
+            "fullName": "Alex Galchenyuk",
+            "link": "/api/v1/people/8476851",
+            "firstName": "Alex",
+            "lastName": "Galchenyuk",
+            "primaryNumber": "17",
+            "birthDate": "1994-02-12",
+            "currentAge": 27,
+            "birthCity": "Milwaukee",
+            "birthStateProvince": "WI",
+            "birthCountry": "USA",
+            "nationality": "USA",
+            "height": "6' 1\"",
+            "weight": 194,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -818,10 +1479,10 @@
                 "link": "/api/v1/teams/53"
             },
             "primaryPosition": {
-                "code": "R",
-                "name": "Right Wing",
+                "code": "C",
+                "name": "Center",
                 "type": "Forward",
-                "abbreviation": "RW"
+                "abbreviation": "C"
             },
             "stats": [
                 {
@@ -833,7 +1494,40 @@
                             "postseason": false
                         }
                     },
-                    "splits": []
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "207:13",
+                                "assists": 4,
+                                "goals": 0,
+                                "pim": 2,
+                                "shots": 27,
+                                "games": 16,
+                                "hits": 11,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 1,
+                                "powerPlayTimeOnIce": "17:11",
+                                "evenTimeOnIce": "190:02",
+                                "penaltyMinutes": "2",
+                                "faceOffPct": 53.84,
+                                "shotPct": 0.0,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "00:00",
+                                "blocked": 5,
+                                "plusMinus": -6,
+                                "points": 4,
+                                "shifts": 288,
+                                "timeOnIcePerGame": "12:57",
+                                "evenTimeOnIcePerGame": "11:52",
+                                "shortHandedTimeOnIcePerGame": "00:00",
+                                "powerPlayTimeOnIcePerGame": "01:04"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -881,35 +1575,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "817:33",
-                                "assists": 11,
-                                "goals": 9,
-                                "pim": 6,
-                                "shots": 85,
-                                "games": 41,
-                                "hits": 18,
-                                "powerPlayGoals": 5,
-                                "powerPlayPoints": 9,
-                                "powerPlayTimeOnIce": "110:14",
-                                "evenTimeOnIce": "702:44",
-                                "penaltyMinutes": "6",
+                                "timeOnIce": "776:29",
+                                "assists": 17,
+                                "goals": 7,
+                                "pim": 10,
+                                "shots": 73,
+                                "games": 35,
+                                "hits": 17,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 6,
+                                "powerPlayTimeOnIce": "103:54",
+                                "evenTimeOnIce": "643:38",
+                                "penaltyMinutes": "10",
                                 "faceOffPct": 0.0,
-                                "shotPct": 10.6,
+                                "shotPct": 9.6,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "04:35",
-                                "blocked": 47,
-                                "plusMinus": -2,
-                                "points": 20,
-                                "shifts": 1025,
-                                "timeOnIcePerGame": "19:56",
-                                "evenTimeOnIcePerGame": "17:08",
-                                "shortHandedTimeOnIcePerGame": "00:06",
-                                "powerPlayTimeOnIcePerGame": "02:41"
+                                "shortHandedTimeOnIce": "28:57",
+                                "blocked": 46,
+                                "plusMinus": -8,
+                                "points": 24,
+                                "shifts": 893,
+                                "timeOnIcePerGame": "22:11",
+                                "evenTimeOnIcePerGame": "18:23",
+                                "shortHandedTimeOnIcePerGame": "00:49",
+                                "powerPlayTimeOnIcePerGame": "02:58"
                             }
                         }
                     ]
@@ -960,35 +1654,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "78:50",
-                                "assists": 3,
-                                "goals": 0,
-                                "pim": 40,
-                                "shots": 6,
-                                "games": 12,
-                                "hits": 28,
+                                "timeOnIce": "224:42",
+                                "assists": 1,
+                                "goals": 1,
+                                "pim": 76,
+                                "shots": 19,
+                                "games": 25,
+                                "hits": 77,
                                 "powerPlayGoals": 0,
                                 "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "00:00",
-                                "evenTimeOnIce": "78:27",
-                                "penaltyMinutes": "40",
-                                "faceOffPct": 0.0,
-                                "shotPct": 0.0,
+                                "powerPlayTimeOnIce": "02:20",
+                                "evenTimeOnIce": "221:34",
+                                "penaltyMinutes": "76",
+                                "faceOffPct": 37.5,
+                                "shotPct": 5.3,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "00:23",
-                                "blocked": 2,
-                                "plusMinus": 1,
-                                "points": 3,
-                                "shifts": 117,
-                                "timeOnIcePerGame": "06:34",
-                                "evenTimeOnIcePerGame": "06:32",
+                                "shortHandedTimeOnIce": "00:48",
+                                "blocked": 4,
+                                "plusMinus": 2,
+                                "points": 2,
+                                "shifts": 332,
+                                "timeOnIcePerGame": "08:59",
+                                "evenTimeOnIcePerGame": "08:51",
                                 "shortHandedTimeOnIcePerGame": "00:01",
-                                "powerPlayTimeOnIcePerGame": "00:00"
+                                "powerPlayTimeOnIcePerGame": "00:05"
                             }
                         }
                     ]
@@ -1009,7 +1703,7 @@
             "birthCountry": "USA",
             "nationality": "USA",
             "height": "6' 0\"",
-            "weight": 177,
+            "weight": 181,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -1039,35 +1733,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "886:59",
-                                "assists": 22,
-                                "goals": 10,
-                                "pim": 16,
-                                "shots": 105,
-                                "games": 52,
-                                "hits": 15,
-                                "powerPlayGoals": 3,
-                                "powerPlayPoints": 7,
-                                "powerPlayTimeOnIce": "143:00",
-                                "evenTimeOnIce": "743:05",
-                                "penaltyMinutes": "16",
-                                "faceOffPct": 42.83,
-                                "shotPct": 9.5,
-                                "gameWinningGoals": 1,
+                                "timeOnIce": "256:49",
+                                "assists": 6,
+                                "goals": 1,
+                                "pim": 4,
+                                "shots": 26,
+                                "games": 16,
+                                "hits": 3,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 1,
+                                "powerPlayTimeOnIce": "35:55",
+                                "evenTimeOnIce": "219:26",
+                                "penaltyMinutes": "4",
+                                "faceOffPct": 38.55,
+                                "shotPct": 3.8,
+                                "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "00:54",
-                                "blocked": 25,
-                                "plusMinus": -1,
-                                "points": 32,
-                                "shifts": 1155,
-                                "timeOnIcePerGame": "17:03",
-                                "evenTimeOnIcePerGame": "14:17",
-                                "shortHandedTimeOnIcePerGame": "00:01",
-                                "powerPlayTimeOnIcePerGame": "02:45"
+                                "shortHandedTimeOnIce": "01:28",
+                                "blocked": 5,
+                                "plusMinus": -8,
+                                "points": 7,
+                                "shifts": 359,
+                                "timeOnIcePerGame": "16:03",
+                                "evenTimeOnIcePerGame": "13:42",
+                                "shortHandedTimeOnIcePerGame": "00:05",
+                                "powerPlayTimeOnIcePerGame": "02:14"
                             }
                         }
                     ]
@@ -1075,25 +1769,25 @@
             ]
         },
         {
-            "id": 8478147,
-            "fullName": "Bokondji Imama",
-            "link": "/api/v1/people/8478147",
-            "firstName": "Bokondji",
-            "lastName": "Imama",
-            "primaryNumber": "25",
-            "birthDate": "1996-08-03",
+            "id": 8478062,
+            "fullName": "Dysin Mayo",
+            "link": "/api/v1/people/8478062",
+            "firstName": "Dysin",
+            "lastName": "Mayo",
+            "primaryNumber": "61",
+            "birthDate": "1996-08-17",
             "currentAge": 25,
-            "birthCity": "Montréal",
-            "birthStateProvince": "QC",
+            "birthCity": "Victoria",
+            "birthStateProvince": "BC",
             "birthCountry": "CAN",
             "nationality": "CAN",
-            "height": "6' 1\"",
-            "weight": 221,
+            "height": "6' 2\"",
+            "weight": 183,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
             "rookie": true,
-            "shootsCatches": "L",
+            "shootsCatches": "R",
             "rosterStatus": "Y",
             "currentTeam": {
                 "id": 53,
@@ -1101,10 +1795,10 @@
                 "link": "/api/v1/teams/53"
             },
             "primaryPosition": {
-                "code": "L",
-                "name": "Left Wing",
-                "type": "Forward",
-                "abbreviation": "LW"
+                "code": "D",
+                "name": "Defenseman",
+                "type": "Defenseman",
+                "abbreviation": "D"
             },
             "stats": [
                 {
@@ -1116,7 +1810,40 @@
                             "postseason": false
                         }
                     },
-                    "splits": []
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "624:45",
+                                "assists": 1,
+                                "goals": 2,
+                                "pim": 8,
+                                "shots": 40,
+                                "games": 30,
+                                "hits": 36,
+                                "powerPlayGoals": 0,
+                                "powerPlayPoints": 0,
+                                "powerPlayTimeOnIce": "02:19",
+                                "evenTimeOnIce": "520:50",
+                                "penaltyMinutes": "8",
+                                "faceOffPct": 0.0,
+                                "shotPct": 5.0,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "101:36",
+                                "blocked": 56,
+                                "plusMinus": -5,
+                                "points": 3,
+                                "shifts": 773,
+                                "timeOnIcePerGame": "20:49",
+                                "evenTimeOnIcePerGame": "17:21",
+                                "shortHandedTimeOnIcePerGame": "03:23",
+                                "powerPlayTimeOnIcePerGame": "00:04"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1134,7 +1861,7 @@
             "birthCountry": "USA",
             "nationality": "USA",
             "height": "6' 2\"",
-            "weight": 214,
+            "weight": 212,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -1164,35 +1891,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "662:58",
-                                "assists": 8,
+                                "timeOnIce": "350:05",
+                                "assists": 3,
                                 "goals": 3,
-                                "pim": 6,
-                                "shots": 47,
-                                "games": 52,
-                                "hits": 148,
-                                "powerPlayGoals": 0,
+                                "pim": 8,
+                                "shots": 31,
+                                "games": 27,
+                                "hits": 30,
+                                "powerPlayGoals": 1,
                                 "powerPlayPoints": 1,
-                                "powerPlayTimeOnIce": "19:21",
-                                "evenTimeOnIce": "549:24",
-                                "penaltyMinutes": "6",
-                                "faceOffPct": 50.0,
-                                "shotPct": 6.4,
+                                "powerPlayTimeOnIce": "35:02",
+                                "evenTimeOnIce": "285:01",
+                                "penaltyMinutes": "8",
+                                "faceOffPct": 31.91,
+                                "shotPct": 9.7,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "94:13",
-                                "blocked": 27,
-                                "plusMinus": -10,
-                                "points": 11,
-                                "shifts": 962,
-                                "timeOnIcePerGame": "12:44",
+                                "shortHandedTimeOnIce": "30:02",
+                                "blocked": 11,
+                                "plusMinus": -7,
+                                "points": 6,
+                                "shifts": 509,
+                                "timeOnIcePerGame": "12:57",
                                 "evenTimeOnIcePerGame": "10:33",
-                                "shortHandedTimeOnIcePerGame": "01:48",
-                                "powerPlayTimeOnIcePerGame": "00:22"
+                                "shortHandedTimeOnIcePerGame": "01:06",
+                                "powerPlayTimeOnIcePerGame": "01:17"
                             }
                         }
                     ]
@@ -1213,7 +1940,7 @@
             "birthCountry": "CAN",
             "nationality": "CAN",
             "height": "6' 4\"",
-            "weight": 220,
+            "weight": 215,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -1243,35 +1970,35 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "729:09",
+                                "timeOnIce": "616:02",
                                 "assists": 9,
-                                "goals": 4,
-                                "pim": 46,
-                                "shots": 70,
-                                "games": 51,
-                                "hits": 155,
+                                "goals": 9,
+                                "pim": 26,
+                                "shots": 83,
+                                "games": 34,
+                                "hits": 92,
                                 "powerPlayGoals": 0,
-                                "powerPlayPoints": 2,
-                                "powerPlayTimeOnIce": "14:02",
-                                "evenTimeOnIce": "613:06",
-                                "penaltyMinutes": "46",
-                                "faceOffPct": 46.51,
-                                "shotPct": 5.7,
-                                "gameWinningGoals": 0,
+                                "powerPlayPoints": 3,
+                                "powerPlayTimeOnIce": "60:47",
+                                "evenTimeOnIce": "482:04",
+                                "penaltyMinutes": "26",
+                                "faceOffPct": 29.03,
+                                "shotPct": 10.8,
+                                "gameWinningGoals": 1,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
                                 "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "102:01",
-                                "blocked": 30,
-                                "plusMinus": -10,
-                                "points": 13,
-                                "shifts": 1058,
-                                "timeOnIcePerGame": "14:17",
-                                "evenTimeOnIcePerGame": "12:01",
-                                "shortHandedTimeOnIcePerGame": "02:00",
-                                "powerPlayTimeOnIcePerGame": "00:16"
+                                "shortHandedTimeOnIce": "73:11",
+                                "blocked": 19,
+                                "plusMinus": -4,
+                                "points": 18,
+                                "shifts": 844,
+                                "timeOnIcePerGame": "18:07",
+                                "evenTimeOnIcePerGame": "14:10",
+                                "shortHandedTimeOnIcePerGame": "02:09",
+                                "powerPlayTimeOnIcePerGame": "01:47"
                             }
                         }
                     ]
@@ -1284,14 +2011,14 @@
             "link": "/api/v1/people/8478872",
             "firstName": "Karel",
             "lastName": "Vejmelka",
-            "primaryNumber": "29",
+            "primaryNumber": "70",
             "birthDate": "1996-05-25",
             "currentAge": 25,
             "birthCity": "Trebic",
             "birthCountry": "CZE",
             "nationality": "CZE",
-            "height": "6' 3\"",
-            "weight": 202,
+            "height": "6' 4\"",
+            "weight": 224,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -1319,7 +2046,36 @@
                             "postseason": false
                         }
                     },
-                    "splits": []
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "1059:17",
+                                "ot": 1,
+                                "shutouts": 1,
+                                "ties": 0,
+                                "wins": 4,
+                                "losses": 13,
+                                "saves": 564,
+                                "powerPlaySaves": 101,
+                                "shortHandedSaves": 20,
+                                "evenSaves": 443,
+                                "shortHandedShots": 22,
+                                "evenShots": 481,
+                                "powerPlayShots": 117,
+                                "savePercentage": 0.91,
+                                "goalAgainstAverage": 3.172,
+                                "games": 20,
+                                "gamesStarted": 18,
+                                "shotsAgainst": 620,
+                                "goalsAgainst": 56,
+                                "timeOnIcePerGame": "52:57",
+                                "powerPlaySavePercentage": 86.32478632478633,
+                                "shortHandedSavePercentage": 90.9090909090909,
+                                "evenStrengthSavePercentage": 92.0997920997921
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1337,7 +2093,7 @@
             "birthCountry": "USA",
             "nationality": "USA",
             "height": "5' 10\"",
-            "weight": 170,
+            "weight": 178,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -1367,451 +2123,38 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "932:52",
-                                "assists": 21,
-                                "goals": 14,
-                                "pim": 18,
-                                "shots": 124,
-                                "games": 56,
-                                "hits": 20,
-                                "powerPlayGoals": 4,
-                                "powerPlayPoints": 10,
-                                "powerPlayTimeOnIce": "153:36",
-                                "evenTimeOnIce": "778:12",
-                                "penaltyMinutes": "18",
-                                "faceOffPct": 46.34,
-                                "shotPct": 11.3,
-                                "gameWinningGoals": 3,
-                                "overTimeGoals": 0,
-                                "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "01:04",
-                                "blocked": 14,
-                                "plusMinus": -5,
-                                "points": 35,
-                                "shifts": 1202,
-                                "timeOnIcePerGame": "16:39",
-                                "evenTimeOnIcePerGame": "13:53",
-                                "shortHandedTimeOnIcePerGame": "00:01",
-                                "powerPlayTimeOnIcePerGame": "02:44"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 8479345,
-            "fullName": "Jakob Chychrun",
-            "link": "/api/v1/people/8479345",
-            "firstName": "Jakob",
-            "lastName": "Chychrun",
-            "primaryNumber": "6",
-            "birthDate": "1998-03-31",
-            "currentAge": 23,
-            "birthCity": "Boca Raton",
-            "birthStateProvince": "FL",
-            "birthCountry": "USA",
-            "nationality": "USA",
-            "height": "6' 2\"",
-            "weight": 210,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": false,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": [
-                        {
-                            "season": "20202021",
-                            "stat": {
-                                "timeOnIce": "1309:44",
-                                "assists": 23,
-                                "goals": 18,
-                                "pim": 42,
-                                "shots": 176,
-                                "games": 56,
-                                "hits": 59,
-                                "powerPlayGoals": 5,
-                                "powerPlayPoints": 14,
-                                "powerPlayTimeOnIce": "154:21",
-                                "evenTimeOnIce": "1100:19",
-                                "penaltyMinutes": "42",
-                                "faceOffPct": 0.0,
-                                "shotPct": 10.2,
-                                "gameWinningGoals": 3,
-                                "overTimeGoals": 1,
-                                "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "55:04",
-                                "blocked": 89,
-                                "plusMinus": -6,
-                                "points": 41,
-                                "shifts": 1480,
-                                "timeOnIcePerGame": "23:23",
-                                "evenTimeOnIcePerGame": "19:38",
-                                "shortHandedTimeOnIcePerGame": "00:59",
-                                "powerPlayTimeOnIcePerGame": "02:45"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 8479619,
-            "fullName": "Michael Carcone",
-            "link": "/api/v1/people/8479619",
-            "firstName": "Michael",
-            "lastName": "Carcone",
-            "primaryNumber": "56",
-            "birthDate": "1996-05-19",
-            "currentAge": 25,
-            "birthCity": "Ajax",
-            "birthStateProvince": "ON",
-            "birthCountry": "CAN",
-            "nationality": "CAN",
-            "height": "5' 9\"",
-            "weight": 170,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "L",
-                "name": "Left Wing",
-                "type": "Forward",
-                "abbreviation": "LW"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8479982,
-            "fullName": "Conor Timmins",
-            "link": "/api/v1/people/8479982",
-            "firstName": "Conor",
-            "lastName": "Timmins",
-            "primaryNumber": "25",
-            "birthDate": "1998-09-18",
-            "currentAge": 22,
-            "birthCity": "St. Catharines",
-            "birthStateProvince": "ON",
-            "birthCountry": "CAN",
-            "nationality": "CAN",
-            "height": "6' 2\"",
-            "weight": 185,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "R",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": [
-                        {
-                            "season": "20202021",
-                            "stat": {
-                                "timeOnIce": "420:09",
-                                "assists": 7,
-                                "goals": 0,
-                                "pim": 8,
-                                "shots": 31,
-                                "games": 31,
-                                "hits": 18,
-                                "powerPlayGoals": 0,
-                                "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "05:37",
-                                "evenTimeOnIce": "401:07",
-                                "penaltyMinutes": "8",
-                                "faceOffPct": 0.0,
-                                "shotPct": 0.0,
-                                "gameWinningGoals": 0,
-                                "overTimeGoals": 0,
-                                "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "13:25",
+                                "timeOnIce": "698:41",
+                                "assists": 14,
+                                "goals": 13,
+                                "pim": 26,
+                                "shots": 103,
+                                "games": 35,
+                                "hits": 11,
+                                "powerPlayGoals": 2,
+                                "powerPlayPoints": 3,
+                                "powerPlayTimeOnIce": "102:41",
+                                "evenTimeOnIce": "561:08",
+                                "penaltyMinutes": "26",
+                                "faceOffPct": 38.77,
+                                "shotPct": 12.6,
+                                "gameWinningGoals": 2,
+                                "overTimeGoals": 2,
+                                "shortHandedGoals": 1,
+                                "shortHandedPoints": 2,
+                                "shortHandedTimeOnIce": "34:52",
                                 "blocked": 22,
-                                "plusMinus": 6,
-                                "points": 7,
-                                "shifts": 567,
-                                "timeOnIcePerGame": "13:33",
-                                "evenTimeOnIcePerGame": "12:56",
-                                "shortHandedTimeOnIcePerGame": "00:25",
-                                "powerPlayTimeOnIcePerGame": "00:10"
+                                "plusMinus": -6,
+                                "points": 27,
+                                "shifts": 895,
+                                "timeOnIcePerGame": "19:57",
+                                "evenTimeOnIcePerGame": "16:01",
+                                "shortHandedTimeOnIcePerGame": "00:59",
+                                "powerPlayTimeOnIcePerGame": "02:56"
                             }
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": 8480217,
-            "fullName": "Cole Hults",
-            "link": "/api/v1/people/8480217",
-            "firstName": "Cole",
-            "lastName": "Hults",
-            "primaryNumber": "54",
-            "birthDate": "1998-05-22",
-            "currentAge": 23,
-            "birthCity": "Madison",
-            "birthStateProvince": "WI",
-            "birthCountry": "USA",
-            "nationality": "USA",
-            "height": "6' 0\"",
-            "weight": 189,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8480373,
-            "fullName": "Josef Korenar",
-            "link": "/api/v1/people/8480373",
-            "firstName": "Josef",
-            "lastName": "Korenar",
-            "primaryNumber": "32",
-            "birthDate": "1998-01-31",
-            "currentAge": 23,
-            "birthCity": "Pelhrimov",
-            "birthCountry": "CZE",
-            "nationality": "CZE",
-            "height": "6' 1\"",
-            "weight": 185,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "G",
-                "name": "Goalie",
-                "type": "Goalie",
-                "abbreviation": "G"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": [
-                        {
-                            "season": "20202021",
-                            "stat": {
-                                "timeOnIce": "491:50",
-                                "ot": 0,
-                                "shutouts": 0,
-                                "ties": 0,
-                                "wins": 3,
-                                "losses": 5,
-                                "saves": 232,
-                                "powerPlaySaves": 27,
-                                "shortHandedSaves": 6,
-                                "evenSaves": 199,
-                                "shortHandedShots": 6,
-                                "evenShots": 221,
-                                "powerPlayShots": 31,
-                                "savePercentage": 0.899,
-                                "goalAgainstAverage": 3.1718,
-                                "games": 10,
-                                "gamesStarted": 7,
-                                "shotsAgainst": 258,
-                                "goalsAgainst": 26,
-                                "timeOnIcePerGame": "49:11",
-                                "powerPlaySavePercentage": 87.09677419354838,
-                                "shortHandedSavePercentage": 100.0,
-                                "evenStrengthSavePercentage": 90.04524886877829
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 8480834,
-            "fullName": "Ty Emberson",
-            "link": "/api/v1/people/8480834",
-            "firstName": "Ty",
-            "lastName": "Emberson",
-            "birthDate": "2000-05-23",
-            "currentAge": 21,
-            "birthCity": "Eau Claire",
-            "birthStateProvince": "WI",
-            "birthCountry": "USA",
-            "nationality": "USA",
-            "height": "6' 1\"",
-            "weight": 195,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "R",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8480892,
-            "fullName": "Liam Kirk",
-            "link": "/api/v1/people/8480892",
-            "firstName": "Liam",
-            "lastName": "Kirk",
-            "birthDate": "2000-01-03",
-            "currentAge": 21,
-            "birthCity": "Rotherham",
-            "birthCountry": "GBR",
-            "nationality": "GBR",
-            "height": "6' 1\"",
-            "weight": 156,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "L",
-                "name": "Left Wing",
-                "type": "Forward",
-                "abbreviation": "LW"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
                 }
             ]
         },
@@ -1828,7 +2171,7 @@
             "birthCountry": "RUS",
             "nationality": "RUS",
             "height": "6' 2\"",
-            "weight": 201,
+            "weight": 208,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
@@ -1858,295 +2201,38 @@
                     },
                     "splits": [
                         {
-                            "season": "20202021",
+                            "season": "20212022",
                             "stat": {
-                                "timeOnIce": "659:03",
-                                "assists": 1,
-                                "goals": 1,
-                                "pim": 10,
-                                "shots": 36,
-                                "games": 42,
-                                "hits": 103,
+                                "timeOnIce": "609:21",
+                                "assists": 6,
+                                "goals": 0,
+                                "pim": 18,
+                                "shots": 24,
+                                "games": 34,
+                                "hits": 72,
                                 "powerPlayGoals": 0,
                                 "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "00:46",
-                                "evenTimeOnIce": "654:22",
-                                "penaltyMinutes": "10",
+                                "powerPlayTimeOnIce": "01:48",
+                                "evenTimeOnIce": "511:55",
+                                "penaltyMinutes": "18",
                                 "faceOffPct": 0.0,
-                                "shotPct": 2.8,
+                                "shotPct": 0.0,
                                 "gameWinningGoals": 0,
                                 "overTimeGoals": 0,
                                 "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "03:55",
-                                "blocked": 72,
-                                "plusMinus": -13,
-                                "points": 2,
-                                "shifts": 897,
-                                "timeOnIcePerGame": "15:41",
-                                "evenTimeOnIcePerGame": "15:34",
-                                "shortHandedTimeOnIcePerGame": "00:05",
-                                "powerPlayTimeOnIcePerGame": "00:01"
+                                "shortHandedPoints": 1,
+                                "shortHandedTimeOnIce": "95:38",
+                                "blocked": 47,
+                                "plusMinus": -7,
+                                "points": 6,
+                                "shifts": 806,
+                                "timeOnIcePerGame": "17:55",
+                                "evenTimeOnIcePerGame": "15:03",
+                                "shortHandedTimeOnIcePerGame": "02:48",
+                                "powerPlayTimeOnIcePerGame": "00:03"
                             }
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": 8480996,
-            "fullName": "David Tendeck",
-            "link": "/api/v1/people/8480996",
-            "firstName": "David",
-            "lastName": "Tendeck",
-            "birthDate": "1999-11-25",
-            "currentAge": 21,
-            "birthCity": "North Vancouver",
-            "birthStateProvince": "BC",
-            "birthCountry": "CAN",
-            "nationality": "CAN",
-            "height": "6' 1\"",
-            "weight": 173,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "R",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "G",
-                "name": "Goalie",
-                "type": "Goalie",
-                "abbreviation": "G"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8481599,
-            "fullName": "Victor Soderstrom",
-            "link": "/api/v1/people/8481599",
-            "firstName": "Victor",
-            "lastName": "Soderstrom",
-            "primaryNumber": "77",
-            "birthDate": "2001-02-26",
-            "currentAge": 20,
-            "birthCity": "Gavle",
-            "birthCountry": "SWE",
-            "nationality": "SWE",
-            "height": "5' 11\"",
-            "weight": 179,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "R",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": [
-                        {
-                            "season": "20202021",
-                            "stat": {
-                                "timeOnIce": "65:14",
-                                "assists": 1,
-                                "goals": 1,
-                                "pim": 0,
-                                "shots": 6,
-                                "games": 4,
-                                "hits": 4,
-                                "powerPlayGoals": 0,
-                                "powerPlayPoints": 0,
-                                "powerPlayTimeOnIce": "05:41",
-                                "evenTimeOnIce": "58:40",
-                                "penaltyMinutes": "0",
-                                "faceOffPct": 0.0,
-                                "shotPct": 16.7,
-                                "gameWinningGoals": 0,
-                                "overTimeGoals": 0,
-                                "shortHandedGoals": 0,
-                                "shortHandedPoints": 0,
-                                "shortHandedTimeOnIce": "00:53",
-                                "blocked": 0,
-                                "plusMinus": 4,
-                                "points": 2,
-                                "shifts": 83,
-                                "timeOnIcePerGame": "16:18",
-                                "evenTimeOnIcePerGame": "14:40",
-                                "shortHandedTimeOnIcePerGame": "00:13",
-                                "powerPlayTimeOnIcePerGame": "01:25"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 8481711,
-            "fullName": "Matias Maccelli",
-            "link": "/api/v1/people/8481711",
-            "firstName": "Matias",
-            "lastName": "Maccelli",
-            "birthDate": "2000-10-14",
-            "currentAge": 20,
-            "birthCity": "Turku",
-            "birthCountry": "FIN",
-            "nationality": "FIN",
-            "height": "5' 11\"",
-            "weight": 165,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "L",
-                "name": "Left Wing",
-                "type": "Forward",
-                "abbreviation": "LW"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8481827,
-            "fullName": "Ben McCartney",
-            "link": "/api/v1/people/8481827",
-            "firstName": "Ben",
-            "lastName": "McCartney",
-            "birthDate": "2001-07-13",
-            "currentAge": 20,
-            "birthCity": "Portage la Prairie",
-            "birthStateProvince": "MB",
-            "birthCountry": "CAN",
-            "nationality": "CAN",
-            "height": "6' 0\"",
-            "weight": 182,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": true,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "L",
-                "name": "Left Wing",
-                "type": "Forward",
-                "abbreviation": "LW"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8482629,
-            "fullName": "Vladislav Provolnev",
-            "link": "/api/v1/people/8482629",
-            "firstName": "Vladislav",
-            "lastName": "Provolnev",
-            "primaryNumber": "55",
-            "birthDate": "1995-04-03",
-            "currentAge": 26,
-            "birthCity": "Moscow",
-            "birthCountry": "RUS",
-            "nationality": "RUS",
-            "height": "6' 3\"",
-            "weight": 195,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": false,
-            "shootsCatches": "L",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "D",
-                "name": "Defenseman",
-                "type": "Defenseman",
-                "abbreviation": "D"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
-                        }
-                    },
-                    "splits": []
                 }
             ]
         },
@@ -2156,17 +2242,18 @@
             "link": "/api/v1/people/8482655",
             "firstName": "Janis",
             "lastName": "Moser",
+            "primaryNumber": "62",
             "birthDate": "2000-06-06",
             "currentAge": 21,
             "birthCity": "Biel",
             "birthCountry": "CHE",
             "nationality": "CHE",
             "height": "6' 1\"",
-            "weight": 172,
+            "weight": 173,
             "active": true,
             "alternateCaptain": false,
             "captain": false,
-            "rookie": false,
+            "rookie": true,
             "shootsCatches": "L",
             "rosterStatus": "Y",
             "currentTeam": {
@@ -2190,55 +2277,43 @@
                             "postseason": false
                         }
                     },
-                    "splits": []
-                }
-            ]
-        },
-        {
-            "id": 8482699,
-            "fullName": "Dylan Guenther",
-            "link": "/api/v1/people/8482699",
-            "firstName": "Dylan",
-            "lastName": "Guenther",
-            "birthDate": "2003-04-10",
-            "currentAge": 18,
-            "birthCity": "Edmonton",
-            "birthStateProvince": "AB",
-            "birthCountry": "CAN",
-            "nationality": "CAN",
-            "height": "6' 2\"",
-            "weight": 175,
-            "active": true,
-            "alternateCaptain": false,
-            "captain": false,
-            "rookie": false,
-            "shootsCatches": "R",
-            "rosterStatus": "Y",
-            "currentTeam": {
-                "id": 53,
-                "name": "Arizona Coyotes",
-                "link": "/api/v1/teams/53"
-            },
-            "primaryPosition": {
-                "code": "R",
-                "name": "Right Wing",
-                "type": "Forward",
-                "abbreviation": "RW"
-            },
-            "stats": [
-                {
-                    "type": {
-                        "displayName": "statsSingleSeason",
-                        "gameType": {
-                            "id": "R",
-                            "description": "Regular season",
-                            "postseason": false
+                    "splits": [
+                        {
+                            "season": "20212022",
+                            "stat": {
+                                "timeOnIce": "158:27",
+                                "assists": 1,
+                                "goals": 2,
+                                "pim": 4,
+                                "shots": 9,
+                                "games": 8,
+                                "hits": 6,
+                                "powerPlayGoals": 1,
+                                "powerPlayPoints": 1,
+                                "powerPlayTimeOnIce": "16:04",
+                                "evenTimeOnIce": "136:45",
+                                "penaltyMinutes": "4",
+                                "faceOffPct": 0.0,
+                                "shotPct": 22.2,
+                                "gameWinningGoals": 0,
+                                "overTimeGoals": 0,
+                                "shortHandedGoals": 0,
+                                "shortHandedPoints": 0,
+                                "shortHandedTimeOnIce": "05:38",
+                                "blocked": 8,
+                                "plusMinus": 4,
+                                "points": 3,
+                                "shifts": 205,
+                                "timeOnIcePerGame": "19:48",
+                                "evenTimeOnIcePerGame": "17:05",
+                                "shortHandedTimeOnIcePerGame": "00:42",
+                                "powerPlayTimeOnIcePerGame": "02:00"
+                            }
                         }
-                    },
-                    "splits": []
+                    ]
                 }
             ]
         }
     ],
-    "DEBUG": "Data generated on September 10, 2021 11:21:23 AM"
+    "DEBUG": "Data generated on January 15, 2022 12:29:51 PM"
 }
